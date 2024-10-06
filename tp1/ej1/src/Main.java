@@ -11,12 +11,15 @@ public class Main {
 
         System.out.println("Ingese el primer numero entero ");
         int valor1 = scanner.nextInt();
+        mayor.setValor1(valor1);
 
         System.out.println("Ingese el segundo numero entero ");
         int valor2 = scanner.nextInt();
+        mayor.setValor2(valor2);
 
         System.out.println("Ingese el tercer numero entero ");
         int valor3 = scanner.nextInt();
+        mayor.setValor3(valor3);
 
          if (mayor.calcularMayorEstricto(valor1, valor2, valor3) == -1){
              System.out.println("No existe mayor estricto ");
